@@ -1,0 +1,57 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.image {
+  width: 300px;
+  height: 300px;
+  background-image: url('images/newmexico.jpg');
+  background-size: cover;
+  position: relative;
+}
+
+.image-container {
+  float: left;
+  padding: 10px;
+}
+
+.overlay-one {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+  height: 50%;
+}
+
+.overlay-two {
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  background: rgba(255, 255, 255, 0.5);
+  width: 70%;
+  height: 100%;
+  padding-top: 47%;
+}
+
+.overlay-three {
+  text-align: center;
+  background: rgba(255, 255, 255, 0.5);
+  height: 50%;
+  width: 100%;
+  position: absolute;
+  top: 50%;
+}
+
+.overlay-three,
+.overlay-one p {
+  padding-top: 25%;
+}
+
+.icon-container {
+  position: absolute;
+  top: 325px;
+}
+
+.icon {
+  width: 30px;
+  height: 30px;
+}
